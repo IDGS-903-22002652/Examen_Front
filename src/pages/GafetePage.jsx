@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Gafete from "../components/Gafete";
 
-const API_GAFETE_URL = "https://localhost:7119/api/participante";
+const API_GAFETE_URL =
+  "https://examenpractico20251108234645-eecqcvbrbcgnehhm.eastus2-01.azurewebsites.net/api/participante";
 
 const GafetePage = () => {
   const { id } = useParams();

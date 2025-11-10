@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import ParticipantCard from "../components/ParticipantCard";
 
-const API_URL = "https://localhost:7119/api/listado";
+const API_URL =
+  "https://examenpractico20251108234645-eecqcvbrbcgnehhm.eastus2-01.azurewebsites.net/api/listado";
 
 const Listado = () => {
   const navigate = useNavigate();

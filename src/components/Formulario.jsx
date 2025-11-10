@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_REGISTER_URL = "https://localhost:7119/api/registro";
-
+const API_REGISTER_URL =
+  "https://examenpractico20251108234645-eecqcvbrbcgnehhm.eastus2-01.azurewebsites.net/api/registro";
 const avatarOptions = [
   {
     id: "avatar1",
